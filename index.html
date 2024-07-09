@@ -1,0 +1,43 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css">
+    <title>Random Hex Code Generator Using jQuery</title>
+    <!-- Google Fonts Link -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Font Awesome CDN Link -->
+    <script
+      src="https://kit.fontawesome.com/369c1756a5.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- jQuery CDN Link -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="color-preview"></div>
+      <div class="controls">
+        <div class="input-box">
+          <input
+            type="text"
+            id="inputField"
+            class="input-field"
+            value="#ed145b"
+            readonly
+          />
+          <button class="copy-btn"><i class="fas fa-copy"></i></button>
+        </div>
+        <button class="generate-btn">Generate</button>
+        <div class="alert-msg">
+          copied <span class="code"><b>#ed145b</b></span> to clipboard
+        </div>
+      </div>
+    </div>
+  </body>
+  <!-- jQuery File -->
+  <script src="main.js"></script>
+</html>
